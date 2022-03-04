@@ -31,9 +31,9 @@ public class Main {
 
         SimpleDateFormat sd = new SimpleDateFormat("yyyy/MM/dd");
 
-        Date d4 = sd.parse("2022/01/29");
-        p4.setDate_expiration(d4);
-         System.out.println(p4);
+        Date d5 = sd.parse("2022/01/29");
+        p5.setDate_expiration(d5);
+         System.out.println(p5);
 
 
     }

@@ -13,7 +13,7 @@ public class Main {
 
         p2.setPrix(0.7f);
         Produit p4 = new Produit(3250, "tomates", "Sicam", 1.2f);
-
+     Produit p5= new Produit (2000, "letuce", "khodhra", 2.5f);
          p1.afficher();
          p2.afficher();
         p3.afficher();

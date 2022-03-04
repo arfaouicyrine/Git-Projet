@@ -25,6 +25,9 @@ public class Main {
         Date d3 = new Date(2022 - 1900, 0, 22);
         p3.setDate_expiration(d3);
         System.out.println(p3);
+        Date d4 = new Date(2010 - 2000, 0, 22);
+        p4.setDate_expiration(d4);
+        System.out.println(p4);
 
         SimpleDateFormat sd = new SimpleDateFormat("yyyy/MM/dd");
 

@@ -35,6 +35,22 @@ public class Main {
         p5.setDate_expiration(d5);
          System.out.println(p5);
 
+        Magasin m1 = new Magasin(1, "Carrefour", "Ariana");
+       //  System.out.println(m1.toString());
+        m1.ajouterProduit(p2);
+        m1.ajouterProduit(p3);
+        m1.ajouterProduit(p4);
+        System.out.println(m1);
+        Magasin m2 = new Magasin(2, "Monoprix", "Ariana");
+
+        m2.ajouterProduit(p2);
+        m2.ajouterProduit(p3);
+        m2.ajouterProduit(p3);
+      System.out.println(m2);
+
+      Magasin.comparerMagasin(m1, m2);
+
+
 
         Caissier c1 = new Caissier(20, 1, "caissier1", "ariana", 45);
         Caissier c2 = new Caissier(23, 2, "caissier2", "ariana", 50);

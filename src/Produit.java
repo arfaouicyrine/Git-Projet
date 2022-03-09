@@ -93,4 +93,11 @@ public class Produit {
     }
 
 
+    public static boolean comparer(Produit p1,Produit p2){
+
+        return (p1.identifiant==p2.identifiant && p1.libelle.equals(p2.libelle) && p1.prix==p2.prix);
+
+    }
+
+
 }

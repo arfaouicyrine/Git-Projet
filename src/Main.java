@@ -35,6 +35,10 @@ public class Main {
         p5.setDate_expiration(d5);
          System.out.println(p5);
 
+         Employe e1=new Employe(1,"e1","adress1",10);
+        Employe e2=new Employe(2,"e2","adress2",10);
+
+
 
     }
     }

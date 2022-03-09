@@ -35,9 +35,10 @@ public class Main {
         p5.setDate_expiration(d5);
          System.out.println(p5);
 
-         Employe e1=new Employe(1,"e1","adress1",10);
-        Employe e2=new Employe(2,"e2","adress2",10);
 
+        Caissier c1 = new Caissier(20, 1, "caissier1", "ariana", 45);
+        Caissier c2 = new Caissier(23, 2, "caissier2", "ariana", 50);
+        Caissier c3 = new Caissier(20, 1, "caissier1", "ariana", 45);
 
 
     }

@@ -1,4 +1,4 @@
-public class Employe {
+public abstract class  Employe {
     protected int id;
     protected String nom;
     protected String adresse;
@@ -8,6 +8,7 @@ public class Employe {
     public Employe() {
 
     }
+    public abstract float calculerSalaire();
 
     public Employe(int id, String nom, String adresse, int nb_heure) {
         this.id = id;

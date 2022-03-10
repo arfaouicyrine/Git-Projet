@@ -56,6 +56,10 @@ public class Main {
         Caissier c2 = new Caissier(23, 2, "caissier2", "ariana", 50);
         Caissier c3 = new Caissier(20, 1, "caissier1", "ariana", 45);
 
+        Vendeur v1 = new Vendeur(3.5f, 1, "Vend1", "adresse", 29);
+        Vendeur v2 = new Vendeur(3.6f, 2, "Vend2", "adresse", 34);
+        m1.ajouterEmploye(c1);
+        m1.ajouterEmploye(v1);
 
     }
     }

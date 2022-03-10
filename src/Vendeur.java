@@ -1,10 +1,8 @@
-public class Vendeur {
+public class Vendeur extends Employe {
     private float tauxDeVente;
 
-    public Vendeur() {
-    }
-
-    public Vendeur(float tauxDeVente) {
+    public Vendeur(float tauxDeVente, int id, String nom, String adresse, int nb_heure) {
+        super(id, nom, adresse, nb_heure);
         this.tauxDeVente = tauxDeVente;
     }
 
@@ -21,5 +19,10 @@ public class Vendeur {
         return "Vendeur{" +
                 "tauxDeVente=" + tauxDeVente +
                 '}';
+    }
+    @Override
+    public float calculerSalaire() {
+        System.out.println("vendeur");
+        return 450*tauxDeVente;
     }
 }

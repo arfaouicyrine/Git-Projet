@@ -61,5 +61,11 @@ public class Main {
         m1.ajouterEmploye(c1);
         m1.ajouterEmploye(v1);
 
+        Responsable r1 = new Responsable(200, 1, "resp1", "ariana", 35);
+        Responsable r2 = new Responsable(250, 2, "resp2", "ariana", 30);
+        m1.ajouterEmploye(r1);
+
+        System.out.println(m1);
+
     }
     }
